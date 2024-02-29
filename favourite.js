@@ -58,6 +58,7 @@ function biuldFavourite () {
         favourite.setAttribute('class', 'favourite-empty')
         favourite.innerText = 'No Favourite :('
     } else {
+        favourite.setAttribute('class', 'slides')
         favArr.forEach((item) => {
             const slide = document.createElement('div')
             slide.setAttribute('class', 'slide')
