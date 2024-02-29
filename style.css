@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.main {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    background: rgb(76,66,90);
+}
+
+.title {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: rgba(220,225,218,255);
+}
+
+.menu {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 5%;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-color: #DCDCDC;
+    font-size: 115%;
+    background-color: rgb(106,104,145);
+}
+
+.menu-item {
+    margin-right: 5%;
+    color: rgba(220,225,218,255);
+}
+
+.menu-item:hover {
+    color: rgb(225, 157, 31);
+    transition: color 0.7s;
+}
+
+.search {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: #DCDCDC;
+    border: solid 1px #DCDCDC;
+    padding: 2%;
+    border-radius: 15px;
+    width: 60%;
+}
+
+.search:hover {
+    width: 65%;
+    transition: 1s;
+}
+
+#search-input {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 115%;
+    border: none;
+    background-color: #DCDCDC;
+    width: 75%;
+    outline: none;
+}
+
+
+
+#search-button {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: #DCDCDC;
+    font-size: 115%;
+}
+
+.settings {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    right: 20vw;
+    margin: 2vh;
+}
+
+#details-holder {
+    position: relative;
+    right: 20vw;
+    margin: 2vh;
+}
+
+.settings-button {
+    border: 1px solid rgb(106,104,145);
+    border-radius: 10px;
+    padding: 0.2em;
+    width: 100%;
+    background-color: rgb(106,104,145);
+    color: rgba(220,225,218,255);
+}
+
+.settings-button-detail{
+    text-decoration: none;
+}
+.settings-button-detail:hover {
+    color: rgb(225, 157, 31);
+    transition: color 0.7s;
+}
+
+.slides {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+    color: rgba(220,225,218,255);
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.slide {
+    height: 29vw;
+    width: 29vw;
+    background-repeat : no-repeat;
+    background-size : 29vw;
+    background: #DCDCDC;
+    border: solid 1px #DCDCDC;
+    border-radius: 30px;
+    margin-bottom: 3%;
+}
+
+.pages {
+    display: flex;
+    font-size: 115%;
+    position: relative;
+    border: 1px solid rgb(106,104,145);
+    border-radius: 10px;
+    left: 35vw;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    color: rgba(220,225,218,255);
+    background-color: rgb(106,104,145);
+    padding: 0.2em;
+
+}
+
+.about {
+    padding: 1%;
+    height: 30vh;
+    width: 93vw;
+    background-color: #DCDCDC;
+    border: solid 1px #DCDCDC;
+    border-radius: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contacts {
+    padding: 1%;
+    height: 30vh;
+    width: 93vw;
+    background-color: #DCDCDC;
+    border: solid 1px #DCDCDC;
+    border-radius: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chosen {
+    width : 100vw;
+    height : 100vh;
+    position : fixed;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardOfChosen {
+    width : 70vw;
+    height : 30vh;
+    background: #DCDCDC;
+    border: solid 1px #DCDCDC;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: 30vw;
+}
+
+.cardDescription {
+    width: 50%;
+    padding-top: 5%;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+    position: relative;
+    left: 50%;
+}
+
+.like {
+    position: relative;
+    left: 77%;
+    top: 77%;
+    height: 5vw;
+    fill-opacity: 0;
+    
+}
+
+.favourite-empty {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(220,225,218,255);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main" class="main">
+        <div id="title" class="title">FILMS</div>
+        <div class="menu">
+            <div id="about" class="menu-item">About</div>
+            <div id="films" class="menu-item">Films</div>
+            <div id="fav" class="menu-item">Favourite</div>
+            <div id="cont" class="menu-item">Contacts</div>
+        </div>
+        <div id="search" class="search">
+            <input id="search-input" placeholder="Film about...">
+            <div>|</div>
+            <button id="search-button">Search</button>
+        </div>
+        <div id="settings" class="settings">
+            <div id="type" class="settings-button">Type...</div>
+            <div id="lang" class="settings-button">Lang...</div>
+        </div>
+        <div id="details-holder"></div>
+        <div id="slides" class="slides">
+            
+        </div>
+        <div id="pages" class="pages">
+            <div id="leftscroll"> < <a id="left"> 1 </a> </div>
+                <div> of </div>
+            <div id="rightscroll"> <a id="right"> 1 </a> > </div>
+        </div>
+    </div>
+    <script src="pages.js"></script>
+    <script src="search.js"></script>
+    <script src="mainfunctions.js"></script>
+    <script src="favourite.js"></script>
+</body>
+</html>
